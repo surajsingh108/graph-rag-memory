@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-12">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="relation" type="string" />
+      <attribute id="3" title="created_ts" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="text" type="string" />
+      <attribute id="1" title="created_ts" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Newton" label="Newton" />
+      <node id="law of universal gravitation" label="law of universal gravitation" />
+      <node id="planets orbiting the sun" label="planets orbiting the sun" />
+      <node id="objects falling to the ground" label="objects falling to the ground" />
+      <node id="England" label="England" />
+      <node id="1642-1727" label="1642-1727" />
+      <node id="I'm sorry" label="I'm sorry" />
+      <node id="previous discussions" label="previous discussions" />
+      <node id="Effective communication" label="Effective communication" />
+      <node id="previous conversations and shared experiences" label="previous conversations and shared experiences" />
+      <node id="meaningful insights" label="meaningful insights" />
+      <node id="previous exchanges" label="previous exchanges" />
+      <node id="concept_1762978342" label="concept_1762978342">
+        <attvalues>
+          <attvalue for="0" value="An Excel file is a spreadsheet software used for storing, organizing, and analyzing data. It was developed by Microsoft and allows users to create tables with rows and columns, perform calculations, a" />
+          <attvalue for="1" value="1762978342" />
+        </attvalues>
+      </node>
+      <node id="planetary motion" label="planetary motion">
+        <attvalues>
+          <attvalue for="1" value="1762978381" />
+        </attvalues>
+      </node>
+      <node id="quasigeostrophy" label="quasigeostrophy">
+        <attvalues>
+          <attvalue for="1" value="1762978381" />
+        </attvalues>
+      </node>
+      <node id="information" label="information">
+        <attvalues>
+          <attvalue for="1" value="1762978381" />
+        </attvalues>
+      </node>
+      <node id="equations for fluid mechanics" label="equations for fluid mechanics">
+        <attvalues>
+          <attvalue for="1" value="1762978536" />
+        </attvalues>
+      </node>
+      <node id="Rossby number" label="Rossby number">
+        <attvalues>
+          <attvalue for="1" value="1762978536" />
+        </attvalues>
+      </node>
+      <node id="degree of non-geostrophic effects in these flows" label="degree of non-geostrophic effects in these flows">
+        <attvalues>
+          <attvalue for="1" value="1762978536" />
+        </attvalues>
+      </node>
+      <node id="quasigeostrophic model" label="quasigeostrophic model">
+        <attvalues>
+          <attvalue for="1" value="1762978536" />
+        </attvalues>
+      </node>
+      <node id="meteorology and oceanography" label="meteorology and oceanography">
+        <attvalues>
+          <attvalue for="1" value="1762978536" />
+        </attvalues>
+      </node>
+      <node id="coriolis force" label="coriolis force">
+        <attvalues>
+          <attvalue for="1" value="1762978536" />
+        </attvalues>
+      </node>
+      <node id="models for quasigeostrophic flow" label="models for quasigeostrophic flow">
+        <attvalues>
+          <attvalue for="1" value="1762978536" />
+        </attvalues>
+      </node>
+      <node id="weather systems" label="weather systems">
+        <attvalues>
+          <attvalue for="1" value="1762978536" />
+        </attvalues>
+      </node>
+      <node id="gravity" label="gravity">
+        <attvalues>
+          <attvalue for="1" value="1762978574" />
+        </attvalues>
+      </node>
+      <node id="quasigeostrophic framework" label="quasigeostrophic framework">
+        <attvalues>
+          <attvalue for="1" value="1762978574" />
+        </attvalues>
+      </node>
+      <node id="weather patterns" label="weather patterns">
+        <attvalues>
+          <attvalue for="1" value="1762978574" />
+        </attvalues>
+      </node>
+      <node id="fluid dynamics" label="fluid dynamics">
+        <attvalues>
+          <attvalue for="1" value="1762978574" />
+        </attvalues>
+      </node>
+      <node id="quasigeostrophic" label="quasigeostrophic">
+        <attvalues>
+          <attvalue for="1" value="1762978606" />
+        </attvalues>
+      </node>
+      <node id="meteorology" label="meteorology">
+        <attvalues>
+          <attvalue for="1" value="1762978606" />
+        </attvalues>
+      </node>
+      <node id="oceanography" label="oceanography">
+        <attvalues>
+          <attvalue for="1" value="1762978606" />
+        </attvalues>
+      </node>
+      <node id="Excel" label="Excel">
+        <attvalues>
+          <attvalue for="1" value="1762978625" />
+        </attvalues>
+      </node>
+      <node id="Microsoft" label="Microsoft">
+        <attvalues>
+          <attvalue for="1" value="1762978625" />
+        </attvalues>
+      </node>
+      <node id="vortices" label="vortices">
+        <attvalues>
+          <attvalue for="1" value="1762978625" />
+        </attvalues>
+      </node>
+      <node id="ocean currents" label="ocean currents">
+        <attvalues>
+          <attvalue for="1" value="1762978625" />
+        </attvalues>
+      </node>
+      <node id="concept_1762978646" label="concept_1762978646">
+        <attvalues>
+          <attvalue for="0" value="None of the provided documents contain any relevant information about what Excel is. The questions are unrelated to each other, so no direct answer can be given based solely on the information provide" />
+          <attvalue for="1" value="1762978646" />
+        </attvalues>
+      </node>
+      <node id="Quasigeostrophy" label="Quasigeostrophy">
+        <attvalues>
+          <attvalue for="1" value="1762978663" />
+        </attvalues>
+      </node>
+      <node id="fluid mechanics" label="fluid mechanics">
+        <attvalues>
+          <attvalue for="1" value="1762978663" />
+        </attvalues>
+      </node>
+      <node id="Earth's rotation" label="Earth's rotation">
+        <attvalues>
+          <attvalue for="1" value="1762978663" />
+        </attvalues>
+      </node>
+      <node id="global" label="global">
+        <attvalues>
+          <attvalue for="1" value="1762978663" />
+        </attvalues>
+      </node>
+      <node id="non-geostrophic effects" label="non-geostrophic effects">
+        <attvalues>
+          <attvalue for="1" value="1762978663" />
+        </attvalues>
+      </node>
+      <node id="large-scale atmospheric and oceanic circulation patterns" label="large-scale atmospheric and oceanic circulation patterns">
+        <attvalues>
+          <attvalue for="1" value="1762978663" />
+        </attvalues>
+      </node>
+      <node id="CSV file" label="CSV file">
+        <attvalues>
+          <attvalue for="1" value="1762978741" />
+        </attvalues>
+      </node>
+      <node id="analysis" label="analysis">
+        <attvalues>
+          <attvalue for="1" value="1762978741" />
+        </attvalues>
+      </node>
+      <node id="software tools" label="software tools">
+        <attvalues>
+          <attvalue for="1" value="1762978741" />
+        </attvalues>
+      </node>
+      <node id="data processing tasks" label="data processing tasks">
+        <attvalues>
+          <attvalue for="1" value="1762978741" />
+        </attvalues>
+      </node>
+      <node id="programming skills" label="programming skills">
+        <attvalues>
+          <attvalue for="1" value="1762978741" />
+        </attvalues>
+      </node>
+      <node id="in context" label="in context">
+        <attvalues>
+          <attvalue for="1" value="1762978741" />
+        </attvalues>
+      </node>
+      <node id="work on gravity" label="work on gravity">
+        <attvalues>
+          <attvalue for="1" value="1762978748" />
+        </attvalues>
+      </node>
+      <node id="explaining objects falling to the ground" label="explaining objects falling to the ground">
+        <attvalues>
+          <attvalue for="1" value="1762978748" />
+        </attvalues>
+      </node>
+      <node id="Quasigeostrophic framework" label="Quasigeostrophic framework">
+        <attvalues>
+          <attvalue for="1" value="1762978748" />
+        </attvalues>
+      </node>
+      <node id="simulating weather patterns" label="simulating weather patterns">
+        <attvalues>
+          <attvalue for="1" value="1762978748" />
+        </attvalues>
+      </node>
+      <node id="understanding fluid dynamics in large-scale atmospheric and oceanic flows" label="understanding fluid dynamics in large-scale atmospheric and oceanic flows">
+        <attvalues>
+          <attvalue for="1" value="1762978748" />
+        </attvalues>
+      </node>
+      <node id="quasigeostrophy framework" label="quasigeostrophy framework">
+        <attvalues>
+          <attvalue for="1" value="1762978809" />
+        </attvalues>
+      </node>
+      <node id="key assumptions" label="key assumptions">
+        <attvalues>
+          <attvalue for="1" value="1762978809" />
+        </attvalues>
+      </node>
+      <node id="neglect of vorticity and divergence" label="neglect of vorticity and divergence">
+        <attvalues>
+          <attvalue for="1" value="1762978809" />
+        </attvalues>
+      </node>
+      <node id="atmospheric or oceanic dynamics" label="atmospheric or oceanic dynamics">
+        <attvalues>
+          <attvalue for="1" value="1762978809" />
+        </attvalues>
+      </node>
+      <node id="Coriolis effect" label="Coriolis effect">
+        <attvalues>
+          <attvalue for="1" value="1762978809" />
+        </attvalues>
+      </node>
+      <node id="essential features" label="essential features">
+        <attvalues>
+          <attvalue for="1" value="1762978809" />
+        </attvalues>
+      </node>
+      <node id="geostrophic balance" label="geostrophic balance">
+        <attvalues>
+          <attvalue for="1" value="1762978809" />
+        </attvalues>
+      </node>
+      <node id="data management and analysis" label="data management and analysis">
+        <attvalues>
+          <attvalue for="1" value="1762978818" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Newton" target="law of universal gravitation" id="0">
+        <attvalues>
+          <attvalue for="2" value="contributions to physics" />
+          <attvalue for="3" value="1762978818" />
+        </attvalues>
+      </edge>
+      <edge source="Newton" target="England" id="1">
+        <attvalues>
+          <attvalue for="2" value="was born in" />
+        </attvalues>
+      </edge>
+      <edge source="Newton" target="1642-1727" id="2">
+        <attvalues>
+          <attvalue for="2" value="lived from" />
+        </attvalues>
+      </edge>
+      <edge source="Newton" target="planetary motion" id="8">
+        <attvalues>
+          <attvalue for="2" value="contributions" />
+          <attvalue for="3" value="1762978748" />
+        </attvalues>
+      </edge>
+      <edge source="Newton" target="gravity" id="9">
+        <attvalues>
+          <attvalue for="2" value="contributions to physics" />
+          <attvalue for="3" value="1762978574" />
+        </attvalues>
+      </edge>
+      <edge source="Newton" target="objects falling to the ground" id="10">
+        <attvalues>
+          <attvalue for="2" value="gravity" />
+          <attvalue for="3" value="1762978705" />
+        </attvalues>
+      </edge>
+      <edge source="Newton" target="work on gravity" id="11">
+        <attvalues>
+          <attvalue for="2" value="contributions" />
+          <attvalue for="3" value="1762978748" />
+        </attvalues>
+      </edge>
+      <edge source="Newton" target="explaining objects falling to the ground" id="12">
+        <attvalues>
+          <attvalue for="2" value="contributions" />
+          <attvalue for="3" value="1762978748" />
+        </attvalues>
+      </edge>
+      <edge source="law of universal gravitation" target="planets orbiting the sun" id="3">
+        <attvalues>
+          <attvalue for="2" value="explains" />
+        </attvalues>
+      </edge>
+      <edge source="law of universal gravitation" target="objects falling to the ground" id="4">
+        <attvalues>
+          <attvalue for="2" value="explains" />
+        </attvalues>
+      </edge>
+      <edge source="I'm sorry" target="previous discussions" id="5">
+        <attvalues>
+          <attvalue for="2" value="describes" />
+        </attvalues>
+      </edge>
+      <edge source="previous discussions" target="meaningful insights" id="13">
+        <attvalues>
+          <attvalue for="2" value="effective communication" />
+          <attvalue for="3" value="1762978705" />
+        </attvalues>
+      </edge>
+      <edge source="Effective communication" target="previous conversations and shared experiences" id="6">
+        <attvalues>
+          <attvalue for="2" value="depends_on" />
+        </attvalues>
+      </edge>
+      <edge source="meaningful insights" target="previous exchanges" id="7">
+        <attvalues>
+          <attvalue for="2" value="are_needed_for" />
+        </attvalues>
+      </edge>
+      <edge source="quasigeostrophy" target="information" id="14">
+        <attvalues>
+          <attvalue for="2" value="not defined" />
+          <attvalue for="3" value="1762978381" />
+        </attvalues>
+      </edge>
+      <edge source="quasigeostrophy" target="equations for fluid mechanics" id="15">
+        <attvalues>
+          <attvalue for="2" value="framework" />
+          <attvalue for="3" value="1762978536" />
+        </attvalues>
+      </edge>
+      <edge source="Rossby number" target="degree of non-geostrophic effects in these flows" id="16">
+        <attvalues>
+          <attvalue for="2" value="quantification" />
+          <attvalue for="3" value="1762978536" />
+        </attvalues>
+      </edge>
+      <edge source="Rossby number" target="non-geostrophic effects" id="17">
+        <attvalues>
+          <attvalue for="2" value="to quantify" />
+          <attvalue for="3" value="1762978663" />
+        </attvalues>
+      </edge>
+      <edge source="quasigeostrophic model" target="meteorology and oceanography" id="18">
+        <attvalues>
+          <attvalue for="2" value="useful in" />
+          <attvalue for="3" value="1762978536" />
+        </attvalues>
+      </edge>
+      <edge source="coriolis force" target="models for quasigeostrophic flow" id="19">
+        <attvalues>
+          <attvalue for="2" value="included in" />
+          <attvalue for="3" value="1762978536" />
+        </attvalues>
+      </edge>
+      <edge source="coriolis force" target="weather systems" id="20">
+        <attvalues>
+          <attvalue for="2" value="related_to" />
+          <attvalue for="3" value="1762978705" />
+        </attvalues>
+      </edge>
+      <edge source="weather systems" target="quasigeostrophic model" id="21">
+        <attvalues>
+          <attvalue for="2" value="explained by" />
+          <attvalue for="3" value="1762978536" />
+        </attvalues>
+      </edge>
+      <edge source="quasigeostrophic framework" target="weather patterns" id="22">
+        <attvalues>
+          <attvalue for="2" value="used for" />
+          <attvalue for="3" value="1762978574" />
+        </attvalues>
+      </edge>
+      <edge source="quasigeostrophic framework" target="fluid dynamics" id="23">
+        <attvalues>
+          <attvalue for="2" value="used for" />
+          <attvalue for="3" value="1762978574" />
+        </attvalues>
+      </edge>
+      <edge source="quasigeostrophic" target="meteorology" id="24">
+        <attvalues>
+          <attvalue for="2" value="framework used in" />
+          <attvalue for="3" value="1762978606" />
+        </attvalues>
+      </edge>
+      <edge source="quasigeostrophic" target="oceanography" id="25">
+        <attvalues>
+          <attvalue for="2" value="framework used in" />
+          <attvalue for="3" value="1762978606" />
+        </attvalues>
+      </edge>
+      <edge source="meteorology" target="large-scale atmospheric and oceanic circulation patterns" id="26">
+        <attvalues>
+          <attvalue for="2" value="for explanation" />
+          <attvalue for="3" value="1762978663" />
+        </attvalues>
+      </edge>
+      <edge source="oceanography" target="large-scale atmospheric and oceanic circulation patterns" id="27">
+        <attvalues>
+          <attvalue for="2" value="for explanation" />
+          <attvalue for="3" value="1762978663" />
+        </attvalues>
+      </edge>
+      <edge source="Excel" target="Microsoft" id="28">
+        <attvalues>
+          <attvalue for="2" value="created by" />
+          <attvalue for="3" value="1762978625" />
+        </attvalues>
+      </edge>
+      <edge source="Excel" target="data management and analysis" id="29">
+        <attvalues>
+          <attvalue for="2" value="software" />
+          <attvalue for="3" value="1762978818" />
+        </attvalues>
+      </edge>
+      <edge source="vortices" target="weather patterns" id="30">
+        <attvalues>
+          <attvalue for="2" value="influences" />
+          <attvalue for="3" value="1762978625" />
+        </attvalues>
+      </edge>
+      <edge source="vortices" target="ocean currents" id="31">
+        <attvalues>
+          <attvalue for="2" value="influences" />
+          <attvalue for="3" value="1762978625" />
+        </attvalues>
+      </edge>
+      <edge source="Quasigeostrophy" target="fluid mechanics" id="32">
+        <attvalues>
+          <attvalue for="2" value="framework" />
+          <attvalue for="3" value="1762978663" />
+        </attvalues>
+      </edge>
+      <edge source="Earth's rotation" target="global" id="33">
+        <attvalues>
+          <attvalue for="2" value="effects" />
+          <attvalue for="3" value="1762978663" />
+        </attvalues>
+      </edge>
+      <edge source="CSV file" target="analysis" id="34">
+        <attvalues>
+          <attvalue for="2" value="not analyzed" />
+          <attvalue for="3" value="1762978741" />
+        </attvalues>
+      </edge>
+      <edge source="software tools" target="data processing tasks" id="35">
+        <attvalues>
+          <attvalue for="2" value="needed for" />
+          <attvalue for="3" value="1762978741" />
+        </attvalues>
+      </edge>
+      <edge source="programming skills" target="in context" id="36">
+        <attvalues>
+          <attvalue for="2" value="not mentioned" />
+          <attvalue for="3" value="1762978741" />
+        </attvalues>
+      </edge>
+      <edge source="Quasigeostrophic framework" target="simulating weather patterns" id="37">
+        <attvalues>
+          <attvalue for="2" value="mathematical tool" />
+          <attvalue for="3" value="1762978748" />
+        </attvalues>
+      </edge>
+      <edge source="Quasigeostrophic framework" target="understanding fluid dynamics in large-scale atmospheric and oceanic flows" id="38">
+        <attvalues>
+          <attvalue for="2" value="mathematical tool" />
+          <attvalue for="3" value="1762978748" />
+        </attvalues>
+      </edge>
+      <edge source="quasigeostrophy framework" target="key assumptions" id="39">
+        <attvalues>
+          <attvalue for="2" value="reliance on" />
+          <attvalue for="3" value="1762978809" />
+        </attvalues>
+      </edge>
+      <edge source="neglect of vorticity and divergence" target="atmospheric or oceanic dynamics" id="40">
+        <attvalues>
+          <attvalue for="2" value="simplification" />
+          <attvalue for="3" value="1762978809" />
+        </attvalues>
+      </edge>
+      <edge source="Coriolis effect" target="essential features" id="41">
+        <attvalues>
+          <attvalue for="2" value="capture" />
+          <attvalue for="3" value="1762978809" />
+        </attvalues>
+      </edge>
+      <edge source="geostrophic balance" target="essential features" id="42">
+        <attvalues>
+          <attvalue for="2" value="capture" />
+          <attvalue for="3" value="1762978809" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

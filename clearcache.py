@@ -48,6 +48,6 @@ if __name__ == "__main__":
     clear_chromadb_cache()
     clear_sentence_transformer_cache()
     clear_huggingface_cache()
-    #clear_model_cache()
+    clear_model_cache()
     print("Cache clearing complete.")
 

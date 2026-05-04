@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graph-rag-memory"
+version = "0.1.0"
+description = "A small RAG system that builds its own knowledge graph as it reads, with tiered trust between source documents and its own answers."
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=0.5",
+    "sentence-transformers>=3.0",
+    "transformers>=4.44",
+    "torch>=2.2",
+    "networkx>=3.2",
+    "pdfminer.six>=20231228",
+    "accelerate>=0.33",
+    "pyyaml>=6.0",
+    "numpy>=1.24",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["grag*"]

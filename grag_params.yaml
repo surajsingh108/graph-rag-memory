@@ -1,0 +1,51 @@
+# grag_params.yaml — runtime tuning parameters for graph-rag-memory.
+# Edit and restart the demo to apply changes.
+
+decay:
+  # Decay sweep runs every N queries. On a sweep, every entry's score
+  # is reduced by decay_per_sweep. Between sweeps, scores only go up.
+  decay_every_n_queries: 10
+  decay_per_sweep: 0.5
+
+  # Score added when an entry is used in answering a query (immediate, not on sweep).
+  access_increment: 1.0
+
+  # Initial scores when entries are first inserted.
+  initial_score_source: 100.0
+  initial_score_derived: 5.0
+
+  # Whether source-tier entries decay at all. If true, source decay is
+  # decay_per_sweep × source_decay_factor.
+  source_decays: true
+  source_decay_factor: 0.1
+
+  # Entries with confirmations >= this are exempt from decay entirely.
+  confirmation_floor: 5
+
+cull:
+  # Effective score at or below which an entry is culled (during sweep).
+  cull_threshold: 0.0
+
+  # Manual :compact applies this multiplier to decay_per_sweep for its one-shot pass.
+  compact_decay_multiplier: 2.0
+
+memory_pressure:
+  # When derived chunk count exceeds soft_limit, decay_per_sweep scales linearly.
+  soft_limit: 10000
+  pressure_targets_derived_only: true
+
+spread:
+  # Activation spreading: off by default — infrastructure only.
+  enabled: false
+  factor: 0.3
+  max_hops: 2
+  min_contribution: 0.05
+
+dedup:
+  cosine_max: 0.85
+  residual_min: 0.20
+  neighbours: 5
+
+cache:
+  ttl_seconds: 3600
+  hash_length: 12

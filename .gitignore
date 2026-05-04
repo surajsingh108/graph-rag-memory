@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+LLM_venv/
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.vscode/
+.idea/
+
+# runtime data
+grag_data/
+*.gexf
+ingested_files.txt
+rag_documents.txt
+
+# old prototype data
+_archive/
+rag_db/

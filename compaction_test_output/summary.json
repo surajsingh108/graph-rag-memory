@@ -1,0 +1,70 @@
+{
+  "section_1_ingestion": {
+    "status": "PASS",
+    "message": "3 source chunks, 29 graph edges"
+  },
+  "section_1_graph": {
+    "status": "PASS",
+    "message": "37 nodes, 29 edges"
+  },
+  "section_1_no_derived": {
+    "status": "PASS",
+    "message": "derived_count=0 (expected 0)"
+  },
+  "section_2_first_miss": {
+    "status": "PASS",
+    "message": "cache_hit=False (expected False)"
+  },
+  "section_2_derived_grew": {
+    "status": "PASS",
+    "message": "derived grew by 1 (expected 1)"
+  },
+  "section_2_repeat_hits": {
+    "status": "PASS",
+    "message": "repeat cache_hits: q2=True, q3=True"
+  },
+  "section_2_no_growth_on_hit": {
+    "status": "PASS",
+    "message": "derived stayed at 1, edges stayed at 33"
+  },
+  "section_3_all_misses": {
+    "status": "PASS",
+    "message": "all paraphrases were cache misses: True"
+  },
+  "section_3_dedup_fired": {
+    "status": "FAIL",
+    "message": "0/3 rejected by residual filter"
+  },
+  "section_3_growth_bounded": {
+    "status": "WARN",
+    "message": "growth=3: all paraphrases landed (residual filter too lenient)"
+  },
+  "section_4_sweeps_fired": {
+    "status": "PASS",
+    "message": "4 sweeps (expected 4, qss carry-in=1)"
+  },
+  "section_4_score_decayed": {
+    "status": "PASS",
+    "message": "min_score=2.00 < initial=5.0"
+  },
+  "section_5_reached_limit": {
+    "status": "FAIL",
+    "message": "derived peaked at or below soft_limit=30"
+  },
+  "section_5_pressure_scaling": {
+    "status": "WARN",
+    "message": "insufficient sweep samples (under=5 samples, over=0 samples)"
+  },
+  "section_6_derived_not_grew": {
+    "status": "PASS",
+    "message": "derived: 21 \u2192 13"
+  },
+  "section_6_compact_more_aggressive": {
+    "status": "FAIL",
+    "message": "compact median drop=1.000 vs single sweep drop=1.000"
+  },
+  "section_7_floor_protection": {
+    "status": "PASS",
+    "message": "protected entry score held or rose: 2.00 \u2192 5.00 over 3 sweeps (access bumps allowed, decay blocked)"
+  }
+}

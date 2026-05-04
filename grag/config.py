@@ -59,6 +59,9 @@ class Config:
     cache_ttl_seconds: int = 3600
     cache_hash_length: int = 12
 
+    # Conversation buffer
+    conversation_buffer_size: int = 3
+
     def __post_init__(self) -> None:
         Path(self.chroma_path).mkdir(parents=True, exist_ok=True)
         Path(self.graph_path).parent.mkdir(parents=True, exist_ok=True)
@@ -76,6 +79,7 @@ class Config:
         spread = data.get("spread", {})
         dedup = data.get("dedup", {})
         cache = data.get("cache", {})
+        retrieval = data.get("retrieval", {})
 
         kwargs: dict[str, Any] = {}
 
@@ -104,5 +108,7 @@ class Config:
         maybe(dedup, "neighbours", "dedup_neighbours")
         maybe(cache, "ttl_seconds", "cache_ttl_seconds")
         maybe(cache, "hash_length", "cache_hash_length")
+        maybe(retrieval, "min_relevance", "min_relevance")
+        maybe(retrieval, "conversation_buffer_size", "conversation_buffer_size")
 
         return cls(**kwargs)

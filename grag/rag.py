@@ -23,6 +23,7 @@ class RAG:
         self._llm: Optional[LLM] = None
         self._memory: Optional[Memory] = None
         self._graph: Optional[KnowledgeGraph] = None
+        self._conversation_buffer: list[dict] = []
 
     @property
     def llm(self) -> LLM:
@@ -67,8 +68,13 @@ class RAG:
                 "cache_hit": True,
             }
 
-        # 2. Vector retrieval
-        chunks = self.memory.query(question, k=self.config.top_k)
+        # 2. Vector retrieval — prepend last exchange for follow-up context
+        if self._conversation_buffer:
+            last = self._conversation_buffer[-1]
+            retrieval_query = f"{last['question']} {last['answer'][:150]} {question}"
+        else:
+            retrieval_query = question
+        chunks = self.memory.query(retrieval_query, k=self.config.top_k)
 
         # 3. Relevance gate: skip graph walk when retrieved context is off-topic
         top_score = chunks[0]["score"] if chunks else 0.0
@@ -144,6 +150,11 @@ class RAG:
                 confidence=0.7,
             )
 
+        # 9. Update conversation buffer (in-memory only, resets on restart)
+        self._conversation_buffer.append({"question": question, "answer": answer[:300]})
+        if len(self._conversation_buffer) > self.config.conversation_buffer_size:
+            self._conversation_buffer.pop(0)
+
         return {
             "answer": answer,
             "context_used": chunks,
@@ -211,6 +222,7 @@ class RAG:
         """Wipe all memory and graph state so the system starts fresh."""
         sources_cleared, derived_cleared = self.memory.reset()
         self.graph.reset()
+        self._conversation_buffer.clear()
         ingest_log = Path("ingested_files.txt")
         ingest_log_cleared = False
         if ingest_log.exists():

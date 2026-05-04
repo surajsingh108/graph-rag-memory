@@ -49,3 +49,10 @@ dedup:
 cache:
   ttl_seconds: 3600
   hash_length: 12
+
+retrieval:
+  # Lower than the default 0.35 to compensate for L2 vs cosine distance mismatch.
+  # If you rebuild collections with hnsw:space=cosine (:reset), raise this back to ~0.35.
+  min_relevance: 0.15
+  # Number of prior exchanges prepended to the retrieval query for follow-up questions.
+  conversation_buffer_size: 3

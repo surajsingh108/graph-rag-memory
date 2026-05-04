@@ -62,12 +62,23 @@ class Memory:
         self._ef = _SentenceTransformerEF(config.embed_model)
         self._client = chromadb.PersistentClient(path=config.chroma_path)
         self._sources = self._client.get_or_create_collection(
-            "sources", embedding_function=self._ef
+            "sources", embedding_function=self._ef, metadata={"hnsw:space": "cosine"}
         )
         self._derived = self._client.get_or_create_collection(
-            "derived", embedding_function=self._ef
+            "derived", embedding_function=self._ef, metadata={"hnsw:space": "cosine"}
         )
         self._queries_since_sweep: int = 0
+        self._warn_if_not_cosine()
+
+    def _warn_if_not_cosine(self) -> None:
+        for col, name in [(self._sources, "sources"), (self._derived, "derived")]:
+            space = (col.metadata or {}).get("hnsw:space")
+            if space != "cosine":
+                logger.warning(
+                    "Collection '%s' is using '%s' distance (not cosine). "
+                    "Relevance scores will be lower than expected — run :reset to rebuild.",
+                    name, space or "l2",
+                )
 
     # ------------------------------------------------------------------
     # Write paths
@@ -342,10 +353,10 @@ class Memory:
             except Exception:
                 pass
         self._sources = self._client.get_or_create_collection(
-            "sources", embedding_function=self._ef
+            "sources", embedding_function=self._ef, metadata={"hnsw:space": "cosine"}
         )
         self._derived = self._client.get_or_create_collection(
-            "derived", embedding_function=self._ef
+            "derived", embedding_function=self._ef, metadata={"hnsw:space": "cosine"}
         )
         self._queries_since_sweep = 0
         return True, True

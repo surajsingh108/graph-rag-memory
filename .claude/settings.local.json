@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(& python -c \"import chromadb; print\\(chromadb.__version__\\)\")",
-      "PowerShell(& python -c \"import chromadb; import inspect; from chromadb.api.types import EmbeddingFunction; print\\(inspect.getsource\\(EmbeddingFunction\\)\\)\" 2>&1)",
-      "Bash(python -c ' *)"
-    ]
-  }
-}

@@ -21,3 +21,4 @@ rag_documents.txt
 # old prototype data
 _archive/
 rag_db/
+ignore/
